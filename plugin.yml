@@ -1,0 +1,18 @@
+name: URLToSign
+main: fr.skyost.url.URLToSign
+description: Links on sign can easily be open by any players.
+version: 2.0
+author: Skyost
+website: http://www.skyost.eu
+commands:
+ url:
+  description: Apply the url to the sign.
+  usage: /url <url>.
+  permission: urltosign.link
+permissions:
+ urltosign.link:
+  default: op
+  description: Allow you to use /url <url>.
+ urltosign.click:
+  default: true
+  description: Allow you to use click on a sign.
